@@ -2,11 +2,15 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using mtuci_labs.Data;
 using mtuci_labs.Models;
+using System;
+using System.IO;
 
 namespace mtuci_labs.Pages
 {
     public class EditModel : PageModel
     {
+        FileDelete FileDelete { get; set; }
+
         private readonly MtuciLabsDbContext mtuciLabsDbContext;
         [BindProperty]
         public Subject Subject { get; set; }
@@ -20,7 +24,6 @@ namespace mtuci_labs.Pages
         {
             Subject = mtuciLabsDbContext.Subjects.Find(id);
         }
-
         public IActionResult OnPostDelete()
         {
             var ExistingSubject = mtuciLabsDbContext.Subjects.Find(Subject.Id);
@@ -30,7 +33,9 @@ namespace mtuci_labs.Pages
                 mtuciLabsDbContext.Subjects.Remove(ExistingSubject);
                 mtuciLabsDbContext.SaveChanges();
             }
-            return RedirectToPage("/Admin/List");
+            FileDelete = new FileDelete();
+            FileDelete.FileDeleteFromFoler(ExistingSubject.Path);
+            return RedirectToPage("/List");
         }
     }
 }
