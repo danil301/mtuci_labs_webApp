@@ -1,0 +1,28 @@
+﻿@page
+@model mtuci_labs.Pages.ListModel
+@{
+}
+
+<div class="container">
+	<table class="table">
+		<thead>
+			<tr>
+				<td>Id</td>
+				<td>Name</td>
+				<td>Path</td>
+				<td>Course</td>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach(var subject in Model.Subjects){
+	<tr>
+		<td>@subject.Id</td>
+		<td>@subject.Name</td>
+		<td>@subject.Path</td>
+		<td>@subject.Course</td>
+		<td><a href="/Admin/Edit/@subject.Id">Посмотреть</a></td>
+	</tr>
+}
+		</tbody>
+	</table>
+</div>

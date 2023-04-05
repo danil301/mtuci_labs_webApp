@@ -1,0 +1,34 @@
+﻿@page
+@model mtuci_labs.Pages.AdminModel
+@{
+}
+
+<h1>Добавить новую работу</h1>
+
+<div>
+	<div class="container">
+		<form method="post" enctype="multipart/form-data">
+			<div class="mb-3">
+				<label for="name">Выберите предмет:</label>
+					<select id="name" name="name" asp-for="AddSubjectRequest.Name">
+						  <option value="Физика">Физика</option>
+						  <option value="Математические основы баз данных">Математические основы баз данных</option>
+					</select>
+			</div>
+			<div class="mb-3">
+				<label for="course">Выберите курс:</label>
+					<select id="course" name="course" asp-for="AddSubjectRequest.Course">
+						  <option value="1">1</option>
+						  <option value="2">2</option>
+						  <option value="3">3</option>
+						  <option value="4">4</option>
+					</select>
+			</div>
+			<div class="mb-3">
+				<input type="file" asp-for="Upload"/>
+			</div>
+			<button>Submit</button>
+			
+		</form>
+	</div>
+</div>

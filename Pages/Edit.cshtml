@@ -1,0 +1,46 @@
+﻿@page "{id:Guid}"
+@model mtuci_labs.Pages.EditModel
+@{
+}
+
+
+<h1>Данные о работе</h1>
+
+<div>
+	<div class="container">
+		<form method="post" enctype="multipart/form-data">
+			<div class="mb-3">
+				<label for="id">Id</label>
+				<input type="text" id="id" asp-for="Subject.Id" readonly/>
+			</div>
+			<div class="mb-3">
+				<label for="name">Выберите предмет:</label>
+					<select id="name" name="name" asp-for="Subject.Name">
+						  <option value="Физика">Физика</option>
+						  <option value="Математические основы баз данных">Математические основы баз данных</option>
+					</select>
+			</div>
+			<div class="mb-3">
+				<label for="path">Пропишете название файла</label>
+				<input type="text" id="path" name="path" asp-for="Subject.Path"/>
+			</div>
+			<div class="mb-3">
+				<label for="course">Выберите курс:</label>
+					<select id="course" name="course" asp-for="Subject.Course">
+						  <option value="1">1</option>
+						  <option value="2">2</option>
+						  <option value="3">3</option>
+						  <option value="4">4</option>
+					</select>
+			</div>
+			@*<div class="mb-3">
+				<input type="file" asp-for="Upload"/>
+			</div>*@
+			<div class="mb-3 d-flex justify-content-between">
+				<button class="btn-danger " asp-page-handler="Delete">Удалить</button>
+			</div>
+			
+			
+		</form>
+	</div>
+</div>

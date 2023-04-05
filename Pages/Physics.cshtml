@@ -1,0 +1,42 @@
+﻿@page
+@model mtuci_labs.Pages.PhysicsModel
+@{
+}
+
+<h1>Методички для лабораторных работ по физике</h1>
+
+<div class="container">
+	@*@foreach(var item in Model.Subjects)
+	{
+		
+		<div class="d-flex justify-content-between">
+		@if(item.Name == "Физика")
+		{
+			<div>Предмет: @item.Name</div>
+			<a href="../uploads/Ch.docx" download>File</a>
+			<div>Курс: @item.Course</div>
+		}
+		</div>
+	}*@
+
+	@for (int i = 0; i < Model.Subjects.Count(); i++)
+	{
+		
+			@if(Model.Subjects[i].Name == "Физика")
+			{
+				<div class="d-flex justify-content-between">
+					<div>Предмет: @Model.Subjects[i].Name</div>
+					<div>Курс: @Model.Subjects[i].Course</div>
+					<a href="@Url.Page("Physics", "DownloadFile", new { fileName = Model.Files[i].FileName })">Download</a>
+				</div>
+			}
+		
+		
+	}
+
+	@*@foreach(FileModel file in Model.Files)
+	{
+		<div>@file.FileName</div>
+		<a href="@Url.Page("Physics", "DownloadFile", new { fileName = file.FileName })">Download</a>
+	}*@
+</div>
