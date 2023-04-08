@@ -8,57 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = mtuci_labs
 build_property.RootNamespace = mtuci_labs
-build_property.ProjectDir = C:\Users\dvory\source\repos\mtuci_labs\
+build_property.ProjectDir = D:\VS\mtuci_project\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\dvory\source\repos\mtuci_labs
+build_property.MSBuildProjectDirectory = D:\VS\mtuci_project
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/dvory/source/repos/mtuci_labs/Pages/Admin.cshtml]
+[D:/VS/mtuci_project/Pages/Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dvory/source/repos/mtuci_labs/Pages/Admin_Panel.cshtml]
+[D:/VS/mtuci_project/Pages/Admin_Panel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5fUGFuZWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dvory/source/repos/mtuci_labs/Pages/Edit.cshtml]
+[D:/VS/mtuci_project/Pages/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dvory/source/repos/mtuci_labs/Pages/Error.cshtml]
+[D:/VS/mtuci_project/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dvory/source/repos/mtuci_labs/Pages/Index.cshtml]
+[D:/VS/mtuci_project/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dvory/source/repos/mtuci_labs/Pages/List.cshtml]
+[D:/VS/mtuci_project/Pages/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dvory/source/repos/mtuci_labs/Pages/Physics.cshtml]
+[D:/VS/mtuci_project/Pages/Password.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VS/mtuci_project/Pages/Physics.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGh5c2ljcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dvory/source/repos/mtuci_labs/Pages/Privacy.cshtml]
+[D:/VS/mtuci_project/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dvory/source/repos/mtuci_labs/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/VS/mtuci_project/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dvory/source/repos/mtuci_labs/Pages/_ViewImports.cshtml]
+[D:/VS/mtuci_project/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dvory/source/repos/mtuci_labs/Pages/_ViewStart.cshtml]
+[D:/VS/mtuci_project/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dvory/source/repos/mtuci_labs/Pages/Shared/_Layout.cshtml]
+[D:/VS/mtuci_project/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-17cvtirq2j

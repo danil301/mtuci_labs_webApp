@@ -15,8 +15,13 @@ namespace mtuci_labs.Pages
         {
             this.mtuciLabsDbContext = mtuciLabsDbContext;
         }
+        public string IsAuth { get; set; }
         public void OnGet()
         {
+            using (System.IO.StreamReader reader = System.IO.File.OpenText(@"D:\VS\mtuci_project\Pages\IsAuth.txt"))
+            {
+                IsAuth = reader.ReadToEnd();
+            }
             Subjects = mtuciLabsDbContext.Subjects.ToList();
         }
     }

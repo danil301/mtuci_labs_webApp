@@ -2,6 +2,10 @@
 @model mtuci_labs.Pages.Admin_PanelModel
 @{
 }
+@if (Model.IsAuth == "false")
+{
+	Response.Redirect("/Password");
+}
 
 
 <div>

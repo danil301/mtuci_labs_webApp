@@ -3,6 +3,11 @@
 @{
 }
 
+@if (Model.IsAuth == "false")
+{
+	Response.Redirect("/Password");
+}
+
 <h1>Добавить новую работу</h1>
 
 <div>

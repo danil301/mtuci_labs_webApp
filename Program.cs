@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using mtuci_labs;
 using mtuci_labs.Data;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,3 +33,5 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.Run();
+
+
