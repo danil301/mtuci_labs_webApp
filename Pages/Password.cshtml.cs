@@ -17,13 +17,13 @@ namespace mtuci_labs.Pages
             if (password == "123")
             {
                 string str = string.Empty;
-                using (System.IO.StreamReader reader = System.IO.File.OpenText(@"D:\VS\mtuci_project\Pages\IsAuth.txt"))
+                using (System.IO.StreamReader reader = System.IO.File.OpenText(@"Pages\IsAuth.txt"))
                 {
                     str = reader.ReadToEnd();
                 }
                 str = str.Replace("false", "true");
 
-                using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"D:\VS\mtuci_project\Pages\IsAuth.txt"))
+                using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"Pages\IsAuth.txt"))
                 {
                     file.Write(str);
                 }

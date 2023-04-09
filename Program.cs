@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using mtuci_labs;
 using mtuci_labs.Data;
 
+UpdateAuth updateAuth = new UpdateAuth();
+updateAuth.Update();
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -28,15 +28,14 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownSubjects">
                                 
                                 <li><a class="dropdown-item" asp-page="Physics">Физика</a></li>
-                                <li><a class="dropdown-item">Математические основы баз данных</a></li>
+                                <li><a class="dropdown-item" asp-page="Devops">Devops</a></li>
+                                <li><a class="dropdown-item" asp-page="MathDb">Математические основы баз данных</a></li>
+                                <li><a class="dropdown-item" asp-page="ITCS">Введение в информационные технологии</a></li>
                             </ul>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-page="Admin_Panel">Admin</a>
-                        </li>
-                        <li>
-                            @Url.RouteUrl(ViewContext.RouteData.Values);
                         </li>
                     </ul>
                 </div>
