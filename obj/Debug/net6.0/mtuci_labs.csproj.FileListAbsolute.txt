@@ -244,3 +244,4 @@ C:\Users\dvory\Source\Repos\mtuci_labs_webApp\obj\Debug\net6.0\refint\mtuci_labs
 C:\Users\dvory\Source\Repos\mtuci_labs_webApp\obj\Debug\net6.0\mtuci_labs.pdb
 C:\Users\dvory\Source\Repos\mtuci_labs_webApp\obj\Debug\net6.0\mtuci_labs.genruntimeconfig.cache
 C:\Users\dvory\Source\Repos\mtuci_labs_webApp\obj\Debug\net6.0\ref\mtuci_labs.dll
+C:\Users\dvory\source\repos\mtuci_labs_webApp\bin\Debug\net6.0\pass.txt

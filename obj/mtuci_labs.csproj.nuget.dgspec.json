@@ -11,7 +11,7 @@
         "projectName": "mtuci_labs",
         "projectPath": "C:\\Users\\dvory\\source\\repos\\mtuci_labs_webApp\\mtuci_labs.csproj",
         "packagesPath": "C:\\Users\\dvory\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dvory\\Source\\Repos\\mtuci_labs_webApp\\obj\\",
+        "outputPath": "C:\\Users\\dvory\\source\\repos\\mtuci_labs_webApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
