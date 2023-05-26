@@ -20,9 +20,15 @@ namespace mtuci_labs.Pages
         {
             this.mtuciLabsDbContext = mtuciLabsDbContext;
         }
+
+        public string IsAuth { get; set; }
         public void OnGet(Guid id)
         {
             Subject = mtuciLabsDbContext.Subjects.Find(id);
+            using (System.IO.StreamReader reader = System.IO.File.OpenText(@"Pages\IsAuth.txt"))
+            {
+                IsAuth = reader.ReadToEnd();
+            }
         }
         public IActionResult OnPostDelete()
         {

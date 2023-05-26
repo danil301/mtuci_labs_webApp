@@ -2,6 +2,10 @@
 @model mtuci_labs.Pages.EditModel
 @{
 }
+@if (Model.IsAuth == "false")
+{
+	Response.Redirect("/Password");
+}
 
 
 <h1>Данные о работе</h1>

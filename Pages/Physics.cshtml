@@ -13,7 +13,7 @@
 				<div class="d-flex justify-content-between">
 					<div>Предмет: @Model.Subjects[i].Name</div>
 					<div>Курс: @Model.Subjects[i].Course</div>
-					<a href="@Url.Page("Physics", "DownloadFile", new { fileName = Model.Files[i].FileName })">Download</a>
+					<a href="@Url.Page("Physics", "DownloadFile", new { fileName = Model.Files[i].FileName })">@Model.Files[i].FileName</a>
 				</div>
 			}		
 	}
